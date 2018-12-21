@@ -144,6 +144,11 @@ form input {
 
 /*----------------------------*/
 
+
+.modal-content
+{
+    border-radius: 10px;
+}
 .add-user:focus
 {
     border:2px solid #8e44ad;
@@ -170,15 +175,32 @@ form input {
     transform: translate(-50%,0)
 }
 
+.cancel-user , .modal-footer .add-user
+{
+    padding:20px 90px;
+    border-radius:40px;
+}
+
+
+.cancel-user
+{
+    border: 1px solid #8e44ad;
+}
+
+
+.modal-footer .add-user
+{
+    background-color: #8e44ad;
+    color: #fff!important;
+}
 
 
 
 
-
-
-
-
-
+.list-section .list-group-flush .list-group-item:active
+{
+    background-color: #8e44ad;
+}
 
 
 
