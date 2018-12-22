@@ -1,9 +1,14 @@
+/* Start Global Role */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+
+/* End Global Role */
+
+/* Start Header "login" */
 
 .navbar {
     background-color: #fff;
@@ -97,7 +102,9 @@ form input {
     color: #8e44ad;
 }
 
-/*-----------------------------------------*/
+/* End Header "login" */
+
+/* Start Breadcrump Section */
 
 .breadcrump-section {
     background-color: #dedede;
@@ -116,8 +123,10 @@ form input {
 }
 
 
+/* End Breadcrump Section */
 
 
+/* Start list-section */
 
 .list-section {
     background-color: #f5f5f5;
@@ -211,6 +220,9 @@ form input {
     font-size:20px;
     font-weight: 500;
 }
+
+
+/* End list-section */
 
 /*----------------------------*/
 

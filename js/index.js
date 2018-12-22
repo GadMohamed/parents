@@ -23,6 +23,14 @@ $('#edit-user').on('hidden.bs.collapse', function () {
 
 $("ul .user-info").click(function(){
     
+    
+ /*
+ المشكله هنا انا عامل لما يكلك على الديف ... 
+ ul background red .
+ 
+ but donot work with ul list-section 
+ */  
+    
  $("ul").css("background-color","red");
     
     
