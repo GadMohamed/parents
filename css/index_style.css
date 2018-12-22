@@ -155,6 +155,7 @@ form input {
 
 .item-icon {
     border: 1px solid #8e44ad;
+    cursor: pointer;
 }
 
 
